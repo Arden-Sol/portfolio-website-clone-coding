@@ -200,27 +200,7 @@ button:hover {
 .skills{
   display: grid;
   grid-template-columns: 6fr 4fr;
-  margin: 2rem 3rem;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 15px 14px 8px 0px rgba(0,0,0,0.64);
 }
-.skills__title {
-  color: var(--color-accent);
-  margin: 1rem 0;
-  font-size: 1.2rem;
-}
-
 .skills__coding{
-  background-color: var(--color-primary);
   grid-row: span 2;
-  padding: 1rem;
-}
-.skills__tools{
-padding: 1rem;
-}
-.skills__etc{
-  background-color: var(--color-primary);
-  padding: 1rem;
-  filter: brightness(150%);
 }

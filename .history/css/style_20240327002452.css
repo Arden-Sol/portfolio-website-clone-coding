@@ -203,7 +203,6 @@ button:hover {
   margin: 2rem 3rem;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 15px 14px 8px 0px rgba(0,0,0,0.64);
 }
 .skills__title {
   color: var(--color-accent);
