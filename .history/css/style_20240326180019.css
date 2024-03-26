@@ -83,9 +83,5 @@ img {
   padding: 8px 16px;
 }
 .header__menu__item:hover {
-  border-bottom:1px solid var(--color-accent)
-}
-.header__menu__item.active {
-  border:1px solid var(--color-accent);
-  border-radius: 4px;
+  boder-bottom:1px solid var(--color-accent-variant)
 }
