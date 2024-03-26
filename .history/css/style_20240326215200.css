@@ -13,9 +13,6 @@
 --color-blue: #03e8f9;
 --color-orange: #fd6413;
 --color-gray: #1b1e26;
-
-/* Size */
---size-max-width: 1200px;
 }
 
 *{
@@ -63,10 +60,7 @@ button:hover {
 .description {
   font-size: 1.5rem;
 }
-.max-container {
-  max-width: var(--size-max-width);
-  margin: auto;
-}
+
 
 /* Header */
 .header{
@@ -181,13 +175,4 @@ button:hover {
 .job {
   display: flex;
   align-items: center;
-  gap:8px;
-  margin-bottom: 1rem;
-}
-.job__name {
-  color: var(--color-primary);
-}
-.job__period  {
-  color: var(--color-primary);
-  font-size: 0.8rem;
 }
