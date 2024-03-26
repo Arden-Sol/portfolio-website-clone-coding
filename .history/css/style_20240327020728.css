@@ -348,9 +348,6 @@ padding: 1rem;
   margin-bottom: 2rem;
   align-items: center;
 }
-.testimonial:nth-child(even) .testimonial__img{
-  order:1;
-}
 .testimonial__img{
   width: 150px;
   height: 150px;

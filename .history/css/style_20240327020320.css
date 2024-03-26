@@ -348,9 +348,6 @@ padding: 1rem;
   margin-bottom: 2rem;
   align-items: center;
 }
-.testimonial:nth-child(even) .testimonial__img{
-  order:1;
-}
 .testimonial__img{
   width: 150px;
   height: 150px;
@@ -359,23 +356,6 @@ padding: 1rem;
 }
 .testimonial__bubble{
   box-shadow: 15px 14px 8px 0px rgba(0,0,0,0.64);
-  padding: 1rem;
-  border-radius: 8px;
+padding: 1rem;
+border-radius: 8px;
 }
-.testimonial__bubble__name{
-  color: var(--color-accent);
-  font-weight: bold;
-  filter: brightness(70%);
-}
-
-
-
-
-
-
-
-
-
-
-
-
