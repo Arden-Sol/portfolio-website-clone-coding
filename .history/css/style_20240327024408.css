@@ -419,8 +419,6 @@ padding: 1rem;
 .header__menu{
   flex-direction: column;
   text-align: center;
-  padding: 1rem 4rem;
-  gap: 1rem;
 }
 .header__nav{
   width: 100%;
