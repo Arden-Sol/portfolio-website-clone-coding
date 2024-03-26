@@ -78,8 +78,7 @@ button:hover {
   align-items: center;
   padding: 1rem;
   background-color: black;
-  z-index: 1; 
-  /* 새롭게 배운 것 */
+  z-index: 1;
 }
 .header__logo {
   display: flex;
@@ -266,7 +265,6 @@ padding: 1rem;
   border: 1px solid var(--color-accent);
   cursor: pointer;
   white-space: nowrap;
-  /* 새롭게 배운 것 */
 }
 .category--selected {
   background-color: var(--color-accent);
