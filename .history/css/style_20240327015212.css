@@ -334,7 +334,6 @@ padding: 1rem;
   background-color: var(--color-accent);
   transform: translateX(-50%);
   margin: 0.5rem 0;
-  /* 꾸미기용 가상요소 */
 }
 
 
