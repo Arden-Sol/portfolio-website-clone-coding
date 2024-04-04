@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-  outline: 1px solid transparent;
+  outline: 1px solid var(--color-accent);
 }
 
 /* Common */
@@ -104,12 +104,10 @@ button:hover {
   gap:4px
 }
 .header__menu__item {
-  display: block;
   padding: 8px 16px;
-  border-bottom:1px solid transparent;
 }
 .header__menu__item:hover {
-  border-bottom:1px solid var(--color-accent);
+  border-bottom:1px solid var(--color-accent)
 }
 .header__menu__item.active {
   border:1px solid var(--color-accent);
@@ -117,9 +115,14 @@ button:hover {
 }
 /* header bar */
 .header__bars{
+  background-color: pink;
+  position: absolute;
+  top:2rem;
+  right:3rem;
+  color: var(--color-text);
+  font-size: 2rem;
   display: none;
 }
-
 /* Home */
 #home{
   background-color: var(--color-primary);
@@ -416,7 +419,7 @@ padding: 1rem;
 
 @media screen and (max-width: 768px){
   .section {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
   }
   .title {
     font-size: 2rem;
@@ -427,28 +430,15 @@ padding: 1rem;
 .header{
   flex-direction: column;
   align-items: start;
-  background-color: var(--color-primary);
 }
 .header__menu{
-  display: none;
   flex-direction: column;
   text-align: center;
-  margin: 1rem 4rem;
+  padding: 1rem 4rem;
   gap: 1rem;
-}
-.header__menu.open{
-  display: flex;
 }
 .header__nav{
   width: 100%;
-}
-.header__bars{
-  display: block;
-  position: absolute;
-  top:1.3rem;
-  right:1rem;
-  color: var(--color-text);
-  font-size: 1.5rem;
 }
 #home{
   padding-bottom: 3rem;
@@ -494,3 +484,10 @@ margin-bottom: 0.5rem;
   right: 1.5rem;
 }
 }
+
+
+
+
+
+
+

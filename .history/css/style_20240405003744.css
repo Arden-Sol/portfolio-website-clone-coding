@@ -106,10 +106,9 @@ button:hover {
 .header__menu__item {
   display: block;
   padding: 8px 16px;
-  border-bottom:1px solid transparent;
 }
 .header__menu__item:hover {
-  border-bottom:1px solid var(--color-accent);
+  border-bottom:1px solid var(--color-accent)
 }
 .header__menu__item.active {
   border:1px solid var(--color-accent);

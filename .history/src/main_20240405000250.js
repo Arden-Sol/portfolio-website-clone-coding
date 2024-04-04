@@ -27,14 +27,10 @@ document.addEventListener('scroll', event => {
     arrowUp.style.display = 'none';
   }
 });
-// Navbar 토글버튼 클릭 처리
-const bars = document.querySelector('.header__bars');
-const headerMenu = document.querySelector('.header__menu');
-bars.addEventListener('click', event => {
-  headerMenu.classList.toggle('open');
-});
 
-// Navbar 메뉴 클릭시 메뉴를 자동으로 닫아줌
-headerMenu.addEventListener('click', event => {
-  headerMenu.classList.remove('open');
+const bars = document.querySelector('.header__bars');
+const header__nav = document.querySelector('.header__nav');
+bars.addEventListener('toggle', event => {
+  // header__nav.style.display = 'block';
+  console.log('toggle');
 });

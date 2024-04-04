@@ -31,10 +31,12 @@ document.addEventListener('scroll', event => {
 const bars = document.querySelector('.header__bars');
 const headerMenu = document.querySelector('.header__menu');
 bars.addEventListener('click', event => {
+  // header__nav.style.display = 'block';
   headerMenu.classList.toggle('open');
 });
 
 // Navbar 메뉴 클릭시 메뉴를 자동으로 닫아줌
 headerMenu.addEventListener('click', event => {
+  // header__nav.style.display = 'block';
   headerMenu.classList.remove('open');
 });
