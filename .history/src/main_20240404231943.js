@@ -18,12 +18,9 @@ const homeContainer = document.querySelector('.home__container');
 document.addEventListener('scroll', event => {
   homeContainer.style.opacity = 1 - window.scrollY / homeHeight;
 });
-// Arrow up 버튼을 아래로 스크롤시 투명하게 처리함
+
 const arrowUp = document.querySelector('aside');
-document.addEventListener('scroll', event => {
-  if (homeHeight <= scrollY * 2) {
-    arrowUp.style.display = 'block';
-  } else {
-    arrowUp.style.display = 'none';
-  }
-});
+arrowUp.style.display = 'none';
+if (home <= scrollY * 2) {
+  arrowUp.style.display = 'block';
+}
