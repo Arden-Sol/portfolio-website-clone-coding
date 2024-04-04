@@ -14,7 +14,10 @@ const headerHeight = header.getBoundingClientRect().height;
 const home = document.querySelector('#home');
 const homeHeight = home.getBoundingClientRect().height;
 const homeContainer = document.querySelector('.home__container');
+// 1 - (pageY / homeHeight)
 
 document.addEventListener('scroll', event => {
+
   homeContainer.style.opacity = 1 - window.scrollY / homeHeight;
+  // console.log(1 - window.scrollY / homeHeight);
 });
