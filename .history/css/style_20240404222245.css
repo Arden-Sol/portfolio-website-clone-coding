@@ -84,7 +84,6 @@ button:hover {
 }
 .header--dark{
   background-color: var(--color-primary);
-  box-shadow: 15px 14px 8px 0px rgba(0,0,0,0.64);
 }
 .header__logo {
   display: flex;
