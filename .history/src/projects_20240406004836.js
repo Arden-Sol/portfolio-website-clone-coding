@@ -17,7 +17,7 @@ categories.addEventListener('click', (event) => {
 function handleActiveSelection(target) {
   const active = document.querySelector('.category--selected');
   active.classList.remove('category--selected');
-  target.classList.add('category--selected');
+  target.target.classList.add('category--selected');
 }
 
 function filterProjects(filter) {
