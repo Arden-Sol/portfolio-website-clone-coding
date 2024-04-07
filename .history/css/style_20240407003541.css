@@ -136,7 +136,7 @@ button:hover {
 #home{
   position: relative;
   background-color: var(--color-primary);
-  background-image: var(--home-bg-svg);
+  background: var(--home-bg-gradient);
   color: var(--color-text);
   padding : 5rem 1rem;
   padding-top: 7rem;

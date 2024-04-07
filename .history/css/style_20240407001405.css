@@ -7,10 +7,6 @@
 --color-accent-variant: var(--color-orange);
 --color-text: var(--color-white);
 
-/* Background gradient */
---home-bg-gradient: linear-gradient(180deg, rgba(14,44,98,1) 0%, rgba(5,10,19,1) 100%);
---home-bg-svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='157' height='157' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' fill-opacity='0.67' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
-
   /* Colors */
 --color-white: #ffffff;
 --color-black: #050a13;
@@ -20,6 +16,18 @@
 
 /* Size */
 --size-max-width: 1200px;
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Divider */
 --divider-single-wave: url('data:image/png+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"> <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path> </svg>');
@@ -136,7 +144,6 @@ button:hover {
 #home{
   position: relative;
   background-color: var(--color-primary);
-  background-image: var(--home-bg-svg);
   color: var(--color-text);
   padding : 5rem 1rem;
   padding-top: 7rem;
@@ -147,14 +154,14 @@ button:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: calc(100% + 1.3px);
-  height: 70px;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
+  transform: rotate(160deg);
+  width: calc(124% + 1.3px);
+  height: 72px;
   background-color: var(--color-white);
-  mask: var(--divider-multi-wave);
-  -webkit-mask: var(--divider-multi-wave);
+  mask:var(--divider-single-wave);
+  -webkit-mask:var(--divider-single-wave);
 }
 .home__avatar{
   width: 250px;
@@ -245,7 +252,7 @@ button:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  width:100%;
+  width: calc(140% + 1.3px);
   height: 92px;
   overflow: hidden;
   line-height: 0;
